@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+}
+
 header{
     background-color: greenyellow;
     height: 30vh;
@@ -12,9 +16,26 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
+ .cannejoker{
+    display: flex;
+    flex-direction: column;
+    /* height: 20%; */
+    width: 8%;
+}
 
+.articles {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+}
+
+button, img{
+    margin-top: 10px;
+}
 h2{
     display: flex;
     justify-content: center;
@@ -26,8 +47,4 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-img{
-    height: 200px;
 }
