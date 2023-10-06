@@ -2,7 +2,7 @@
     margin: 0;
 }
 
-header{
+header {
     background-color: greenyellow;
     height: 30vh;
     display: flex;
@@ -10,7 +10,7 @@ header{
     justify-content: center;
 }
 
-main{
+main {
     background-color: purple;
     display: flex;
     align-items: center;
@@ -19,7 +19,7 @@ main{
     position: relative;
 }
 
- .cannejoker{
+.cannejoker {
     display: flex;
     flex-direction: column;
     /* height: 20%; */
@@ -33,15 +33,21 @@ main{
     height: 40vh;
 }
 
-button, img{
+button,
+img {
     margin-top: 10px;
 }
-h2{
+
+h2 {
     display: flex;
     justify-content: center;
 }
 
-.modalContainer{
+.displayNone {
+    display: none;
+}
+
+.modalContainer {
     background-color: bisque;
     padding: 100px;
     text-align: center;
@@ -51,7 +57,7 @@ h2{
     left: 50%;
 }
 
-footer{
+footer {
     background-color: greenyellow;
     height: 30vh;
     display: flex;
